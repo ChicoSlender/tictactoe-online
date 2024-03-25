@@ -23,6 +23,10 @@ export class Game {
     }
 
     public makePlay(player: PlayerEnum, row: number, col: number): boolean {
+        if (this.hasWinner()) {
+            return false;
+        }
+
         if (!this.isPlayerTurn(player)) {
             return false;
         }
