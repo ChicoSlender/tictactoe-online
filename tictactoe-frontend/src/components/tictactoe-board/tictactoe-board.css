@@ -1,0 +1,18 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.board > .board-cell {
+    padding: 5px;
+    border: solid black 2px;
+    width: 30vh;
+    height: 30vh;
+    margin: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36pt;
+    user-select: none;
+}
