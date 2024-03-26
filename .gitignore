@@ -67,11 +67,22 @@ tictactoe-backend/dist
 
 # Front end folder
 
+# Logs
+tictactoe-frontend/logs
+tictactoe-frontend/*.log
+tictactoe-frontend/npm-debug.log*
+tictactoe-frontend/yarn-debug.log*
+tictactoe-frontend/yarn-error.log*
+tictactoe-frontend/pnpm-debug.log*
+tictactoe-frontend/lerna-debug.log*
+
 # Dependency directories
-tictactoe-backend/node_modules/
+tictactoe-frontend/node_modules/
 
 # build output
-tictactoe-backend/dist
+tictactoe-frontend/dist
+tictactoe-frontend/dist-ssr
+tictactoe-frontend/*.local
 
 # General
 
