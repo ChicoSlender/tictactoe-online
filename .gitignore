@@ -65,6 +65,13 @@ tictactoe-backend/.parcel-cache
 # build output
 tictactoe-backend/dist
 
+# Front end folder
+
+# Dependency directories
+tictactoe-backend/node_modules/
+
+# build output
+tictactoe-backend/dist
 
 # General
 
