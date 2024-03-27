@@ -1,18 +1,33 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 90vh;
+    justify-content: space-around;
+    gap: 40px;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2px;
+    flex-grow: 1;
+    aspect-ratio: 1;
 }
 
 .board > .board-cell {
     padding: 5px;
     border: solid black 2px;
-    width: 30vh;
-    height: 30vh;
+    aspect-ratio: 1/1;
     margin: -2px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 36pt;
     user-select: none;
+}
+
+.game-container > .game-text {
+    flex-grow: 0;
+    margin: auto;
 }
